@@ -1,0 +1,97 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{dsb17}
+\citation{stewart2014world}
+\citation{dsb17}
+\citation{he2016deep}
+\citation{deng2009imagenet,lin2014microsoft}
+\citation{setio2016validation}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\citation{ronneberger2015u}
+\citation{dsb17}
+\citation{setio2016validation}
+\citation{Goodfellow-et-al-2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces An example CT scan image in the DSB-17 dataset, showing the slices of the 3D image and the HU values along (a) $z$-axis, (b) $y$-axis and (c) $x$-axis respectively.}}{3}{figure.1}}
+\newlabel{fig:ct_scan}{{1}{3}{An example CT scan image in the DSB-17 dataset, showing the slices of the 3D image and the HU values along (a) $z$-axis, (b) $y$-axis and (c) $x$-axis respectively}{figure.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The typical Hounsfield Units (HU) of substances in human body.}}{3}{table.1}}
+\newlabel{tab:hu_values}{{1}{3}{The typical Hounsfield Units (HU) of substances in human body}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background and datasets}{3}{section.2}}
+\newlabel{sec:background}{{2}{3}{Background and datasets}{section.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{CT scan images}{3}{section*.1}}
+\@writefile{toc}{\contentsline {paragraph}{Lung cancer detection and the Data Science Bowl 2017 dataset}{3}{section*.2}}
+\@writefile{toc}{\contentsline {paragraph}{Nodule segmentation and the LUNA-16 dataset}{3}{section*.3}}
+\citation{spline_interpolation}
+\citation{full_preprocssing_tutorial}
+\citation{erosion_morphology}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A example CT image in the LUNA-16 dataset. Left: one slice of CT scan along $z$-axis. Right: the corresponding annotated nodule mask (the yellow circular region) for that slice.}}{4}{figure.2}}
+\newlabel{fig:luna16_data}{{2}{4}{A example CT image in the LUNA-16 dataset. Left: one slice of CT scan along $z$-axis. Right: the corresponding annotated nodule mask (the yellow circular region) for that slice}{figure.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Deep convolutional neural networks}{4}{section*.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Data preprocessing}{4}{section.3}}
+\newlabel{sec:preprocssing}{{3}{4}{Data preprocessing}{section.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Lung region segmentation}{4}{section*.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces A sample slice of a CT image, sliced along the $z$-axis. (a) original CT scan image with HU values shown in the color bar. (b) the lung mask obtained from the largest connected component. (c) the segmented lung region after applying the lung mask to the CT image.}}{5}{figure.3}}
+\newlabel{fig:lung_segmentation}{{3}{5}{A sample slice of a CT image, sliced along the $z$-axis. (a) original CT scan image with HU values shown in the color bar. (b) the lung mask obtained from the largest connected component. (c) the segmented lung region after applying the lung mask to the CT image}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces The 3D convolutional neural network in our Classification Method 1. The network consists of six 3D convolutional layers (with 3 max-pooling layer between them), followed by two densely connected layers.}}{5}{table.2}}
+\newlabel{tab:convnet_1}{{2}{5}{The 3D convolutional neural network in our Classification Method 1. The network consists of six 3D convolutional layers (with 3 max-pooling layer between them), followed by two densely connected layers}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Classification Method 1: using a single 3D convolutional neural network}{5}{section.4}}
+\newlabel{sec:method1}{{4}{5}{Classification Method 1: using a single 3D convolutional neural network}{section.4}{}}
+\citation{abadi2016tensorflow}
+\citation{kingma2014adam}
+\citation{krizhevsky2012imagenet}
+\citation{ioffe2015batch}
+\citation{krizhevsky2012imagenet}
+\citation{setio2016validation}
+\citation{no7}
+\citation{ronneberger2015u}
+\citation{ronneberger2015u}
+\newlabel{eqn:loss}{{1}{6}{Classification Method 1: using a single 3D convolutional neural network}{equation.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Classification Method 2: cancer prediction based on nodule segmentation}{6}{section.5}}
+\newlabel{sec:method2}{{5}{6}{Classification Method 2: cancer prediction based on nodule segmentation}{section.5}{}}
+\citation{ronneberger2015u}
+\citation{long2015fully}
+\citation{ronneberger2015u}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The U-Net structure \cite  {ronneberger2015u} used in our model for nodule segmentation. See Sec. \ref  {sec:nodule_seg_unet} for details.}}{7}{figure.4}}
+\newlabel{fig:unet}{{4}{7}{The U-Net structure \cite {ronneberger2015u} used in our model for nodule segmentation. See Sec. \ref {sec:nodule_seg_unet} for details}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Nodule segmentation based on U-Net structure}{7}{subsection.5.1}}
+\newlabel{sec:nodule_seg_unet}{{5.1}{7}{Nodule segmentation based on U-Net structure}{subsection.5.1}{}}
+\bibstyle{unsrt}
+\bibdata{references}
+\bibcite{dsb17}{{1}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces An example of nodule segmentation and nodule candidate prediction on the DSB-17 dataset. (a) A slice of the CT scan image along $z$-axis. (b) The predicted nodule probability on every pixels of that slice. The red dots show the centroids of the 20 nodule candidates projected onto that slice. (c) The sum of nodule probabilities along $z$-axis. The red dots show the $x$ and $y$ coordinates of the centroids of the top-20 nodule candidates.}}{8}{figure.5}}
+\newlabel{fig:nodule_segmentation_cluster}{{5}{8}{An example of nodule segmentation and nodule candidate prediction on the DSB-17 dataset. (a) A slice of the CT scan image along $z$-axis. (b) The predicted nodule probability on every pixels of that slice. The red dots show the centroids of the 20 nodule candidates projected onto that slice. (c) The sum of nodule probabilities along $z$-axis. The red dots show the $x$ and $y$ coordinates of the centroids of the top-20 nodule candidates}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Lung cancer classification over nodule clusters}{8}{subsection.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}}
+\bibcite{stewart2014world}{{2}{}{{}}{{}}}
+\bibcite{he2016deep}{{3}{}{{}}{{}}}
+\bibcite{deng2009imagenet}{{4}{}{{}}{{}}}
+\bibcite{lin2014microsoft}{{5}{}{{}}{{}}}
+\bibcite{setio2016validation}{{6}{}{{}}{{}}}
+\bibcite{ronneberger2015u}{{7}{}{{}}{{}}}
+\bibcite{Goodfellow-et-al-2016}{{8}{}{{}}{{}}}
+\bibcite{spline_interpolation}{{9}{}{{}}{{}}}
+\bibcite{full_preprocssing_tutorial}{{10}{}{{}}{{}}}
+\bibcite{erosion_morphology}{{11}{}{{}}{{}}}
+\bibcite{abadi2016tensorflow}{{12}{}{{}}{{}}}
+\bibcite{kingma2014adam}{{13}{}{{}}{{}}}
+\bibcite{krizhevsky2012imagenet}{{14}{}{{}}{{}}}
+\bibcite{ioffe2015batch}{{15}{}{{}}{{}}}
+\bibcite{no7}{{16}{}{{}}{{}}}
+\bibcite{long2015fully}{{17}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers

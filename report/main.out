@@ -1,0 +1,8 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background and datasets}{}% 2
+\BOOKMARK [1][-]{section.3}{Data preprocessing}{}% 3
+\BOOKMARK [1][-]{section.4}{Classification Method 1: using a single 3D convolutional neural network}{}% 4
+\BOOKMARK [1][-]{section.5}{Classification Method 2: cancer prediction based on nodule segmentation}{}% 5
+\BOOKMARK [2][-]{subsection.5.1}{Nodule segmentation based on U-Net structure}{section.5}% 6
+\BOOKMARK [2][-]{subsection.5.2}{Lung cancer classification over nodule clusters}{section.5}% 7
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 8

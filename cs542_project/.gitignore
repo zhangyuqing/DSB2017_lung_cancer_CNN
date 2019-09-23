@@ -1,0 +1,9 @@
+data/*
+data_luna16/*
+train/*
+
+__backup__/*
+
+*.swp
+*.pyc
+*-checkpoint.ipynb

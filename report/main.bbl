@@ -1,0 +1,103 @@
+\begin{thebibliography}{10}
+
+\bibitem{dsb17}
+Booz Allen.
+\newblock {Data Science Bowl 2017}.
+\newblock \url{https://www.kaggle.com/c/data-science-bowl-2017}, 2017.
+
+\bibitem{stewart2014world}
+BWKP Stewart, Christopher~P Wild, et~al.
+\newblock World cancer report 2014.
+\newblock 2014.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 770--778, 2016.
+
+\bibitem{deng2009imagenet}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
+  IEEE Conference on}, pages 248--255. IEEE, 2009.
+
+\bibitem{lin2014microsoft}
+Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva
+  Ramanan, Piotr Doll{\'a}r, and C~Lawrence Zitnick.
+\newblock Microsoft coco: Common objects in context.
+\newblock In {\em European Conference on Computer Vision}, pages 740--755.
+  Springer, 2014.
+
+\bibitem{setio2016validation}
+Arnaud Arindra~Adiyoso Setio, Alberto Traverso, Thomas de~Bel, Moira~SN Berens,
+  Cas van~den Bogaard, Piergiorgio Cerello, Hao Chen, Qi~Dou, Maria~Evelina
+  Fantacci, Bram Geurts, et~al.
+\newblock Validation, comparison, and combination of algorithms for automatic
+  detection of pulmonary nodules in computed tomography images: the luna16
+  challenge.
+\newblock {\em arXiv preprint arXiv:1612.08012}, 2016.
+
+\bibitem{ronneberger2015u}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock In {\em International Conference on Medical Image Computing and
+  Computer-Assisted Intervention}, pages 234--241. Springer, 2015.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem{spline_interpolation}
+{Spline Interpolation}.
+\newblock \url{https://en.wikipedia.org/wiki/Spline_interpolation}, 2017.
+
+\bibitem{full_preprocssing_tutorial}
+Guido Zuidhof.
+\newblock {Full Preprocessing Tutorial}.
+\newblock \url{https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial},
+  2017.
+
+\bibitem{erosion_morphology}
+Erosion (morphology).
+\newblock \url{https://en.wikipedia.org/wiki/Erosion_(morphology)}, 2017.
+
+\bibitem{abadi2016tensorflow}
+Mart{\'\i}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Greg~S Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, et~al.
+\newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems.
+\newblock {\em arXiv preprint arXiv:1603.04467}, 2016.
+
+\bibitem{kingma2014adam}
+Diederik Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{ioffe2015batch}
+Sergey Ioffe and Christian Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock {\em arXiv preprint arXiv:1502.03167}, 2015.
+
+\bibitem{no7}
+Niklas Köhler.
+\newblock {7th Place short overview}.
+\newblock
+  \url{https://www.kaggle.com/c/data-science-bowl-2017/discussion/31576}, 2017.
+
+\bibitem{long2015fully}
+Jonathan Long, Evan Shelhamer, and Trevor Darrell.
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 3431--3440, 2015.
+
+\end{thebibliography}
